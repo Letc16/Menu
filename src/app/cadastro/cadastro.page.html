@@ -1,0 +1,52 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <img src="../../assets/logo.png" alt="Logo" class="icon">
+    </ion-toolbar>
+
+    <ion-toolbar>
+    <ion-title   class="titulo" >Registrar</ion-title>
+    </ion-toolbar>
+
+    <ion-toolbar>
+    <p class="center-text">Crie sua conta</p>
+    </ion-toolbar>
+
+    <ion-list>
+      <ion-row>
+        <ion-col>
+          <ion-item lines="none">
+            <ion-label position="floating">Nome</ion-label>
+            <ion-input aria-label="name" type="name" minlength="8" maxlength="120"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item lines="none">
+            <ion-label position="floating">Sobrenome</ion-label>
+            <ion-input aria-label="Sobrenome" type="name" minlength="8"  maxlength="120"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-item lines="none">
+        <ion-label position="floating">E-mail</ion-label>
+        <ion-input aria-label="Email" type="email"   maxlength="120"></ion-input>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label position="floating">Senha</ion-label>
+        <ion-input aria-label="Senha" type="password" value="password"></ion-input>
+      </ion-item>
+      <br>
+
+      <ion-button class="botao">Entrar</ion-button>
+    </ion-list>
+    <ion-toolbar>
+      <img src="../../assets/logo.png" alt="Logo" class="logo">
+    </ion-toolbar>
+    <ion-toolbar>
+      <p class="center-text">Você já tem conta? <a routerLink="/login">Entrar</a></p>
+      </ion-toolbar>
+  </ion-header>
+</ion-content>
+<ion-toolbar>
+  
+</ion-toolbar>

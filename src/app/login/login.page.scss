@@ -1,0 +1,44 @@
+ion-input {
+    /* Adiciona borda ao input */
+    border: 2px solid #ccc;
+    border-radius: 5px; /* Opcional: Adiciona bordas arredondadas */
+    padding: 8px; /* Opcional: Adiciona espaço interno */
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  .titulo
+  {
+    font-size: 24px; /* Ajuste o valor conforme necessário */
+  }
+  
+  .botao {
+      width: 97%; /* Garante que o botão ocupe toda a largura do contêiner */
+    --background: #ffc107; /* Define a cor de fundo como amarelo */
+    --color: #ffffff; /* Define a cor do texto como branco */
+  }
+  
+  .logo {
+    width: 85px;
+    height: 85px;
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin: 0 auto; /* Define as margens superior e inferior como 0 e as margens laterais como automáticas */
+  }
+  
+  
+  .icon
+  {
+    width: 100px;
+     height: auto;
+  }
+  
+  
+  .containerprinc {
+    display: flex;
+    align-items:center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    height: 100%; /* Ajusta a altura conforme necessário */
+    background-color: #E5D7A4
+  }
